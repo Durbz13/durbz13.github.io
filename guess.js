@@ -13,6 +13,10 @@ function checkGuess() {
     result.textContent = `Congratulations! You guessed the number in ${attempts} attempts.`;
     guessInput.disabled = true;
     guessButton.disabled = true;
+if (attempts <= 5) {
+result.textContent += "You're really smart!";
+} else if (attempts >= 10) {
+result.textContent += "You might be a little slow!";
   } else if (userGuess < randomNumber) {
     result.textContent = "Too low! Guess higher.";
   } else {
