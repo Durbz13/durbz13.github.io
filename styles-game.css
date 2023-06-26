@@ -8,3 +8,6 @@ html {
 p {
     padding-top: 15px;
 }
+#restartButton {
+text-align: center;
+}
