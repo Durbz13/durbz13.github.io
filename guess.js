@@ -29,7 +29,7 @@ result.textContent += "You're really smart!";
 } else if (attempts >= 10) {
 result.textContent += "You might be a little slow!";
   }
-restartButton.style.margin = "0 auto";
+restartButton.style.display = "block";
   } else if (userGuess < randomNumber) {
     result.textContent = "Too low! Guess higher.";
   } else {
