@@ -13,7 +13,7 @@ function startGame() {
   guessInput.disabled = false;
   guessButton.disabled = false;
   result.textContent = "";
-  restartButton.style.display - "none";
+  restartButton.style.display = "none";
 }
 
 function checkGuess() {
