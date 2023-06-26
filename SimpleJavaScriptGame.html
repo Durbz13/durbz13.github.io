@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title>Simple JavaScript Game</title>
+  <style>
+    #game {
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      position: relative;
+    }
+
+    #player {
+      width: 20px;
+      height: 20px;
+      border: 1px;	
+      position: relative;
+      top: 90px;
+      bottom: 90px;	
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Game</h1>
+
+  <div id="game">
+    <div id="player"></div>
+  </div>
+
+  <script>
+    // Get references to the game and player elements
+    const game = document.getElementById("game");
+    const player = document.getElementById("player");
+
+    // Move the player when arrow keys are pressed
+    document.addEventListener("keydown", function(event) {
+      const key = event.key;
+      const left = parseInt(player.style.left) || 0;
+      const top = parseInt(player.style.top) || 0;
+
+      if (key === "ArrowUp") {
+        player.style.top = top - 10 + "px";
+      } else if (key === "ArrowDown") {
+        player.style.top = top + 10 + "px";
+      } else if (key === "ArrowLeft") {
+        player.style.left - left - 10 + "px";
+      } else if (key === "ArrowRight") {
+        player.style.left = left + 10 + "px";
+      }
+    });
+  </script>
+ </body>
+</html>
