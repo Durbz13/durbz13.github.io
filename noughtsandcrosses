@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <title>Noughts & Crosses</title>
+  <style>
+    
+  </style>
+<head>
+</head>
+<body>
+  <h1>Noughts & Crosses</h1>
+  <div id="board>
+    <!-- the game board will be dynamically generated here -->
+  </div>
+<script src="noughtscript.js"></script>
+</body>
+</html>
