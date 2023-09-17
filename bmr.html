@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calorie Counting App</title>
+   <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+   <div class="container">
+       <h1>Calorie Counting App</h1>
+       <div class="input-container">
+           <label for="gender">Gender:</label>
+           <select id="gender">
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+           </select>
+       </div>
+       <div class="input-container">
+           <label for="weight">Weight (kg):</label>
+           <input type="text" id="weight" placeholder="Enter your weight">
+       </div>
+       <div class="input-container">
+           <label for="height">Height (cm):</label>
+           <input type="text" id="height" placeholder="Enter your height">
+       </div>
+       <div class="input-container">
+           <label for="age">Age:</label>
+           <input type="text" id="age" placeholder="Enter your age">
+       </div>
+       <button id="calculate">Calculate BMR</button>
+       <div class="result">
+           <p>Your BMR is: <span id="bmrResult"></span></p>
+       </div>
+   </div>
+   <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
