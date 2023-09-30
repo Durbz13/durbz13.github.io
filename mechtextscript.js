@@ -22,7 +22,7 @@ function processInput() {
                 if (input === "forward") {
                     currentRoom = "garageApron";
                     output = "You are now outside the garage, a treeline is ahead of you and many mech hangers are to either side.";
-                } if else (input === "backward") {
+                } else if (input === "backward") {
                     currentRoom = "start";
                     output = "You are back inside the garage entrance";
                 } else {
