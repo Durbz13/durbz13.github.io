@@ -18,7 +18,7 @@ function processInput() {
             }
             break;
 
-            case "garageEntrance": 
+          /*  case "garageEntrance": 
                 if (input === "forward") {
                     currentRoom = "garageApron";
                     output = "You are now outside the garage, a treeline is ahead of you and many mech hangers are to either side.";
@@ -40,7 +40,7 @@ function processInput() {
                 break;
 
                 default:
-                    output = "Invalid command.";
+                    output = "Invalid command."; */
             }
             document.getElementById("output").innerHTML = output;
             }
