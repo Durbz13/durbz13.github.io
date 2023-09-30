@@ -33,7 +33,7 @@ function processInput() {
             case "garageApron":
                 if (input === "forward") {
                     currentRoom = "woods";
-                    output = "You mech lurhces forward, crushing small trees and getting stuck between two huge oaks. Your external components are damaged and your cockpit window is smashed.";
+                    output = "You mech lurcces forward, crushing small trees and getting stuck between two huge oaks. Your external components are damaged and your cockpit window is smashed in several places.";
                 } else if (input === "left") {
                     output = "You are facing the base offices.";
                 }
