@@ -40,7 +40,7 @@ function processInput() {
                 break;
 
                 default:
-                    output = "Invalid command."; */
-            }
+                    output = "Invalid command."; 
+            } */
             document.getElementById("output").innerHTML = output;
             }
