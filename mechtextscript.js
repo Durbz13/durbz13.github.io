@@ -31,11 +31,11 @@ function processInput() {
             break;
 
             case "garageApron":
-                if (input === "turn left") {
-                    currentRoom = "garageApronW";
-                    output = "Your mech has turned 90 degress to the left and you are now facing the garage offices.";
-                } else {
-                    output = "You can only turn left here.";
+                if (input === "forward") {
+                    currentRoom = "woods";
+                    output = "You mech lurhces forward, crushing small trees and getting stuck between two huge oaks. Your external components are damaged and your cockpit window is smashed.";
+                } else if (input === "left" {
+                    output = "You are facing the base offices.";
                 }
                 break;
 
