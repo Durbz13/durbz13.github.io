@@ -18,7 +18,7 @@ function processInput() {
             }
             break;
 
-          /*  case "garageEntrance": 
+           case "garageEntrance": 
                 if (input === "forward") {
                     currentRoom = "garageApron";
                     output = "You are now outside the garage, a treeline is ahead of you and many mech hangers are to either side.";
@@ -34,13 +34,13 @@ function processInput() {
                 if (input === "forward") {
                     currentRoom = "woods";
                     output = "You mech lurhces forward, crushing small trees and getting stuck between two huge oaks. Your external components are damaged and your cockpit window is smashed.";
-                } else if (input === "left" {
+                } else if (input === "left") {
                     output = "You are facing the base offices.";
                 }
                 break;
 
                 default:
                     output = "Invalid command."; 
-            } */
+            } 
             document.getElementById("output").innerHTML = output;
             }
