@@ -1,0 +1,18 @@
+#current-room {
+    text-align: center;
+    font-size:  25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.choice {
+    display: flex;
+    justify-content: center;
+}
+.button1,
+.button2,
+.button3 {
+    margin: 10px;
+}
+.option-description {
+    margin: 20px;
+}
