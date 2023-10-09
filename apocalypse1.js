@@ -8,7 +8,7 @@ button3.addEventListener('click', handleOption3);
 
 
 function handleOption1() {
-    const startingRoom = dovument.querySelector('#starting-room');
+    const startingRoom = document.querySelector('#starting-room');
 startingRoom.testContent = "You choose to stay indoors. Excellent. You have enough food for 3 or 4 days, depending on consumption rate, obviously."
 }
 function handleOption2() {
