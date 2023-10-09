@@ -17,13 +17,3 @@
 .option-description {
     margin: 20px;
 }
-@media (max-width: 768px) {
-  #current-room {
-    font-size: 20px; /* Adjust font size for smaller screens */
-    margin: 10px; /* Adjust margins for smaller screens */
-  }
-
-  .choice {
-    margin: 10px; /* Adjust margins for smaller screens */
-  }
-}
