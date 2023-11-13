@@ -15,6 +15,9 @@
   return Math.ceil(Math.random() * 6) + Math.ceil(Math.random() * 6) + Math.ceil(Math.random() * 6);
 }
   function generateAttributes() {
+    
+    let attributeNames = ['Strength', 'Dexterity', 'Constitution', 'Intelligence', 'Wisdom', 'Charisma'];
+
     let STR = roll3d6();
     let DEX = roll3d6();
     let CON = roll3d6();
@@ -29,7 +32,7 @@
 
   for (let i = 0; i < characterAttributes.length; i++) {
       let listItem = document.createElement("li");
-      listItem.appendChild(document.createTextNode(characterAttributes[i]));
+      listItem.appendChild(document.createTextNode(`${attributeNames[i]}: ${characterAttributes[i]}`));
     attributesList.appendChild(listItem);
 }
 }
