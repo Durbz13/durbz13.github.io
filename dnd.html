@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  </head>
+<body>
+  <h1>Create your DnD Character with this button</h1>
+  <div class="button">
+    <button id="createCharacterButton">Create Character</button></div>
+  <ul id="attributesList"></ul>
+  </body>
+<script>
+      let characterAttributes = [];
+
+  function roll3d6() {
+  return Math.ceil(Math.random() * 6) + Math.ceil(Math.random() * 6) + Math.ceil(Math.random() * 6);
+}
+  function generateAttributes() {
+    let STR = roll3d6();
+    let DEX = roll3d6();
+    let CON = roll3d6();
+    let INT = roll3d6();
+    let WIS = roll3d6();
+    let CHA = roll3d6();
+    
+    characterAttributes = [STR, DEX, CON, INT, WIS, CHA];
+
+    let attributesList = document.getElementById("attributesList");
+  attributesList.innerHTML = "";
+
+  for (let i = o; i < characterAttributes.length; i++) {
+      let listItem = document.createElement("li");
+      listItem.appendChild(document.createTextNode(characterAttributes[i]));
+    attributesList.appendChild(listItem);
+}
+}
+  document.getElementById("createCharacterButton").addEventListener("click", generateAttributes);
+  </script>
+</html>
