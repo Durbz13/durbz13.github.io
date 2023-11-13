@@ -27,7 +27,7 @@
     let attributesList = document.getElementById("attributesList");
   attributesList.innerHTML = "";
 
-  for (let i = o; i < characterAttributes.length; i++) {
+  for (let i = 0; i < characterAttributes.length; i++) {
       let listItem = document.createElement("li");
       listItem.appendChild(document.createTextNode(characterAttributes[i]));
     attributesList.appendChild(listItem);
