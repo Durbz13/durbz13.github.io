@@ -20,5 +20,5 @@ console.lof("Option 2 clicked");
 function handleOption3() {
 console.log("Option 3 click);
     const startingRoom = document.querySelector('#current-room');
-    startingRoom.textContent = "You choose to spend an hour or so cooking up some delicious and comforting breakfast: eggs, sausages, bacon, black pudding, beans, toast. A greasy fry up should help prepare you for any challenges ahead. Considering this is the healthiest kind of food in existence, and the calorie and protein content is so high and of such high quality, choosing this option has given you the strength of 3 men, and your chances of survival are much higher."
+    startingRoom.textContent = "You choose to spend an hour or so cooking up some delicious and comforting breakfast: eggs, sausages, bacon, black pudding, beans, toast, garlic butter & mushrooms. A greasy fry up should help prepare you for any challenges ahead. Considering this is the healthiest kind of food in existence, and the calorie and protein content is so high and of such high quality, choosing this option has given you the strength of 3 men, and your chances of survival are much higher."
 }
