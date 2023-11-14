@@ -13,7 +13,7 @@ console.log("Option 1 clicked");
 startingRoom.textContent = "You choose to stay indoors. Excellent. You have enough food for 3 or 4 days, depending on consumption rate, obviously."
 }
 function handleOption2() {
-console.lof("Option 2 clicked");
+console.log("Option 2 clicked");
    const startingRoom = document.querySelector('#current-room');
     startingRoom.textContent = "You choose to go outdoors. Gingerly opening your backdoor to the rear garden, you peer left to right checking the coast is clear. You tip toe to the end of the garden - when suddenly- a loud crash of splintering wood to your right, the neighbour has burst through their garden fence and is immediately upon you! They have become a zombie! All this happens far too fast, you are bitten, taken down and your neighbour and their zombified children join in the feast upon your flesh. Better luck next time, sucker."
 }
