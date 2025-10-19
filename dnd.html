@@ -50,6 +50,9 @@ Traditionally this is achieved by rolling 3 six-sided dice (3d6) for each attrib
     let INT = roll3d6();
     let WIS = roll3d6();
     let CHA = roll3d6();
+
+    // Gold calculation (1974 rule: 3d6 × 10 GP)
+    let gold = roll3d6() * 10;
     
     characterAttributes = [STR, DEX, CON, INT, WIS, CHA];
 
@@ -61,6 +64,10 @@ Traditionally this is achieved by rolling 3 six-sided dice (3d6) for each attrib
       listItem.appendChild(document.createTextNode(`${attributeNames[i]}: ${characterAttributes[i]}`));
     attributesList.appendChild(listItem);
 }
+      // Add gold to list
+  let goldItem = document.createElement("li");
+  goldItem.appendChild(document.createTextNode(`Starting Gold: ${gold} GP`));
+  attributesList.appendChild(goldItem);
 }
   document.getElementById("createCharacterButton").addEventListener("click", generateAttributes);
   </script>
